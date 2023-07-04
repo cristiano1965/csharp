@@ -8,11 +8,12 @@
  */
 
 #nullable enable
-
+Console.WriteLine("Inserisci una stringa: ");
 string? str = Console.ReadLine();
 
 if (str != null && str.Length > 1)
 {
     Console.WriteLine("primi due caratteri:" + str[0] + str[1]);
     Console.WriteLine("ultimi due caratteri:" + str[^2] + str[^1]);
-}
+}else
+    Console.WriteLine("Stringa vuota; nulla da stampare");

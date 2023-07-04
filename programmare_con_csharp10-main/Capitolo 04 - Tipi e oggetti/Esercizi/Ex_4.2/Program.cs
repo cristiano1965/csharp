@@ -10,13 +10,14 @@
 Console.WriteLine("Inserisci il numero di ore:");
 int ore = int.Parse(Console.ReadLine());
 int minuti = ore * 60;
-Console.WriteLine($"{ore} ore corrispondono a {minuti} minuti");
 
-Console.WriteLine("Inserisci il numero di minuti:");
-minuti = int.Parse(Console.ReadLine());
+//Console.WriteLine("Inserisci il numero di minuti:");
+//minuti = int.Parse(Console.ReadLine());
 
 
 int secondi = minuti * 60;
-Console.WriteLine($"{minuti} minuti corrispondono a {secondi} secondi");
+Console.WriteLine($"{ore} ore corrispondono a {minuti} minuti e {secondi} secondi");
+
+//Console.WriteLine($"{minuti} minuti corrispondono a {secondi} secondi");
 
 
